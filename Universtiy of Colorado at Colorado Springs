@@ -1,0 +1,132 @@
+http://cs.uccs.edu/~cs526/
+http://www.cs.uccs.edu/~cchow/
+http://cs.uccs.edu/%7Ecs691/
+http://cs.uccs.edu/%7Ecs591/
+http://www.cs.uccs.edu/~cs520/
+http://www.cs.uccs.edu/~cs115/
+http://www.cs.uccs.edu/~cs401/
+
+ Class web pages (new class web pages hosted in BB or inside UCCS firewall:
+
+    CS526 S2012 Advanced Internet and Web Systems.    http://cs.uccs.edu/~cs526/
+    CS691 S2012 Advanced System Security Designs    http://cs.uccs.edu/%7Ecs691/
+    CS591 F2010 Fundamental of Computer and Network Security   http://cs.uccs.edu/%7Ecs591/
+    CS301 F2007 Web Programming   http://cs.uccs.edu/~cs301/
+    CS522 F2006 Computer Communications      http://cs.uccs.edu/~cs522/
+    CS525 S2008 Multimedia Computing and Communications      http://www.cs.uccs.edu/~cs525/
+    CS622 F2007 Distributed Network class home page   http://www.cs.uccs.edu/~cs622/
+    CS401 F2000 Web Systems and Electronic Commerce class home page   http://www.cs.uccs.edu/~cs401/
+    CS115 F99 Principles of Computer Science home page    http://www.cs.uccs.edu/~cs115/
+    CS520 S99 Computer Architecture class home page    http://www.cs.uccs.edu/~cs520/
+
+
+
+
+
+This web page has been accessed  times since 1/16/2006. 
+Course Objective:
+
+    Advanced topics in Internet and World Wide Web (WWW) systems, sensor networks/applications, web server technologies, content switching and load balancing, high available server cluster, content delivery networks, web system management, wireless network, TCP/IP network modules in kernel. 
+
+Course Outline (with links to individual topics):
+
+    Web System/Cluster:
+        Introduction to Web Systems - cs.uccs.edu/~cs526/intro2.ppt
+Apache , Proxy, Web Benchmarking
+        Access Control and Authentication (need cs526 password to access the web page)
+        Secure Web Access with Client Certificate
+        LVS, Content Switching, LVS Configuration and Setup.
+        Secure Content Switch
+        Apache Proxy Balancer, VMware vApp, ubuntu apache setup.
+        Network Measurement Research.
+        Cache system research,
+        ESI/Active/Dynamic Cache; ESIC (extension for collaborative groupware)
+    Cloud Computing:
+        VMware vCenter and virtual infrastructure.
+        Xen, XenCenter, and XCP.
+        Amazon AWS, EC2, and EC2API.
+        Virtual Private Cloud.
+    Web Applications:
+        HTML5, AJAX
+        PHP-MySQL
+        Web Applications. Smart Grid Wireless Infrastructure Planning (SG-WIP) as an example utilizing Googlemap API.
+    Wireless Sensor Network
+        Mica2 Mote-based Sensor Network Programming, TinyOS, TinyDB
+        Cluster/Sink Tree Formation
+        Coverage
+        Tracking
+        First Responder Sensor Network
+    Access Management
+        Secure Information Sharing, RBAC, Attributed Certificate, smc05paper, SISTTO Presentation.
+        Hierachical Role-based Access, thesis.
+        Privilege (Access) Management (NIST7657report).
+    Web Service/Portal/Content Management
+        Java Servlet, JSP, Tomcat, JDBC-Mysql
+        Portal: uPortal, Sakai, commercial portal tool kits.
+        Content Management
+    Group Communication
+        Instant Messaging and security enhanced; Secure Groupware for First Responders.
+        Multicast
+        Anycast
+    Wireless LAN/MAN:
+        Management Mode vs. Ad hoc Mode
+        PEAP vsTTLS
+    Network Processor
+        VxWork
+        Intel IXA SDK
+        IXP-based Content Switch
+
+Grades:
+
+    midterm(20%), final exam(20%), homework assignments(40%), network/protocol research project(20%)
+
+    Grade Query Web Page
+
+Class Info:
+
+    Disability Services: If you have a disability for which you are requesting an accommodation, you are encouraged to contact the Disability Services Office within the first week of classes. The Disability Services Office is located in Main Hall # 105. (Phone # is 255-3354.)
+
+    Q&A
+
+    Quiz
+
+    CS526 S2010 Class Photo Album and Web Pages
+
+    CS526 S2009 Class Photo Album and Web Pages
+
+    CS526 S2006 Class Photo Album and Web Pages
+
+    Please create a personal web page at http://walrus.uccs.edu/~<login>/cs526/ with your personal photo, basic vita,  your interests in this class,  and potential semester projects that you may work on.  This will allow classmates to find common interests and know each other. See http://cs.uccs.edu/~cs301/graphics/scanning.htm for scanning your personal photo.  You can also use my personal web page as a template. If you do not know how to setup your personal web page, drop by my office.  I will help you.  This is part of your hw#1.
+    Make sure you use <login>.jpg for your photo image file.  Check on a browser and see if you can access your web page.  If you got "forbidden" msg, it means that you need to open the access rights of your home directory and public_html directory.  Use "chmod 755 ../<login>" and "chmod 755 public_html" commands for changing the access rights.
+
+    CS526 mailing list:  We established a netowrk alias cs526-l@uccs.edu that can be considered as group mailing address or a distribution list.  You can email to the whole class using this email address.  Only email sent from the group members are allowed to be forwarded. To forward the email to your own server,  you need to
+        either set up a .forward file which contains the email address with your default mail server by login to brain.uccs.edu with your computing service account and create a .forward file with the email address of your regular mail server,  or
+        configure your mail program or your default mail server to read mails from POP (post office protocol) server of uccs.edu.
+
+Text:
+
+    No textbook. There will be reading assignments from the reference articles. See the list in "Assignment" tab.
+
+Table 1: CS526 Advanced Internet and Web Systems Tentative Schedule
+Date 	Ch 	Topics 	Assignment
+W1/18 	X 	Introduction to Web Systems, Apache , Web Benchmark 	HW#1 due 1/25
+1/23 	X 	Proxy/ReverseProxy; Load Balancer. 	HW#2 due 2/6
+1/30 	X 	Introduction to CDN, Linux Virtual Server (LVS); VMware Virtual Infrastructure 	HW#2 due 2/15
+2/6 	X 	Xen, XenServer, XenCenter, XCP, and xe api 	 
+2/13 	X 	Amazon AWS, EC2, EC2ApI, Integrated Cloud Computing. 	 
+2/20 	X 	Secure Content Switch 	 
+2/27 	X 	High Available Web Systems; ESI/Active/Dynamic Cache; 	 
+3/5 	X 	Access Control and Authentication (need cs526 password to access the web page); Secure Web Access with Client Certificate 	 
+3/12 	X 	
+
+Midterm 3/14 online exam 5:50-11:59pm; Need your client certificate to access the midterm.
+	 
+3/19 	X 	HTML5, AJAX; 	HW#4 due 3/29
+3/26 	X 	Spring Break 3/26-4/1 M-Su(no classes) 	 
+4/2 	X 	Web Applications, SG-WIP with Googemap API. 	HW#5 due 4/12
+4/9 	X 	Wireless Sensor Network; Cluster/Sink Tree Formation; Coverage; 	 
+4/16 	X 	TinyOS, Mica2mote; 802.15.4; First Responder Sensor Networks 	HW#6 due 4/26
+4/23 	  	Semester Project Presentations 	 
+4/30 	  	Semester Project Presentations	 
+5/7 	  	Final Exam, online in lab exam in EN138 4:30-7pm. Note that starting time 4:30 is different from 5:50 class time. 	Open book; Open note; not chat.
+X: Online material
